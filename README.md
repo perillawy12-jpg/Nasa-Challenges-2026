@@ -1,6 +1,8 @@
 # Nasa-Challenges-2026
 # Lunar Polar Planner
 
+Live app: https://perillawy12-jpg.github.io/Nasa-Challenges-2026/
+
 A web tool that compares landing sites near the Moon's south pole. Pick sites and a date range and it shows where the Sun and Earth are in the sky from each site, when solar power is available, when a direct radio link to Earth is possible, and which start dates keep both for a whole mission. NASA's south pole animation plays in sync with the chosen date.
 
 Made for the NASA Space Apps Challenge 2026. Team: Martin Roa, Samuel Chaparro, Laura Ramírez, Contreras, Amaya, Héctor.
