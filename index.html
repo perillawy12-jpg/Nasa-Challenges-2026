@@ -1,5 +1,4 @@
-<!doctype html><html><head><meta charset=utf8><meta name=viewport content="width=device-width,initial-scale=1,viewport-fit=cover"><style>:root{color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}html{scroll-padding-top:env(safe-area-inset-top,0px)}body{margin:0;padding:0;font:14px -apple-system,BlinkMacSystemFont,sans-serif;background:#fff;color:#000}img{max-width:100%}[hidden]:not([hidden=until-found i]){display:none!important}</style></head><body>
-<title>Lunar Polar Planner</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><title>Lunar Polar Planner</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="generator" content="Code and text generated with SI assistance (Claude, Anthropic); reviewed by the team">
 <!-- SI disclosure: code and text of this page were generated with the help of Claude (Anthropic). Not affiliated with or endorsed by NASA. -->
@@ -50,6 +49,9 @@ p { margin: 0; }
 .kicker { font: 500 11px/1 var(--font-mono); letter-spacing: 0.16em; text-transform: uppercase; color: var(--muted); }
 .top { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 16px 40px; align-items: end; padding-top: 4px; }
 .top .titles { display: flex; flex-direction: column; gap: 14px; }
+.codelink { align-self: flex-start; display: inline-block; text-decoration: none; font-size: 13.5px; padding: 7px 14px; }
+.codelink:hover { border-color: var(--ink); opacity: 1; }
+.codelink:focus-visible { outline: 2px solid var(--both); outline-offset: 2px; }
 .lead { color: var(--muted); font-size: 1.06rem; max-width: 46ch; }
 @media (max-width: 800px) { .top { grid-template-columns: minmax(0, 1fr); } }
 
@@ -258,6 +260,7 @@ details > summary::before { transition: transform .2s ease; }
     <div class="titles">
       <span class="kicker">Lunar south pole · Sun and Earth geometry</span>
       <h1>Lunar Polar Planner</h1>
+      <a class="btn ghost codelink" href="https://github.com/perillawy12-jpg/Nasa-Challenges-2026" target="_blank" rel="noopener">View the source code on GitHub ↗</a>
     </div>
     <p class="lead">Can a lander make power and call home from here? Pick landing sites near the Moon's south pole and a window of dates to find out. Everything on the page updates as you move through time.</p>
   </header>
@@ -1503,6 +1506,5 @@ const LunarEngine = (function () {
   refreshAll(false, true);
 })();
 </script>
-
 
 </body></html>
